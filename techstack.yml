@@ -1,0 +1,86 @@
+repo_name: YT026/versus
+report_id: a971a45b1c8ea7307bcd71dbe0cb3305
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-05T14:49:31+00:00'
+requested_by: egalano
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/YT026/versus
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/YT026/versus
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/YT026/versus/blob/master/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Andrey Petrov
+  last_updated_on: 2020-01-30 21:25:48.000000000 Z
+- name: go-flags
+  description: Go command line option parser
+  package_url: https://pkg.go.dev/github.com/jessevdk/go-flags
+  version: 1.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/YT026/versus/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Andrey Petrov
+  last_updated_on: 2019-10-21 11:36:02.000000000 Z
+- name: websocket
+  description: A fast
+  package_url: https://pkg.go.dev/github.com/gorilla/websocket
+  version: 1.4.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/YT026/versus/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Lorenzo Urbini
+  last_updated_on: 2020-08-30 10:18:23.000000000 Z
+- name: zerolog
+  description: Zero Allocation JSON Logger
+  package_url: https://pkg.go.dev/github.com/rs/zerolog
+  version: 1.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/YT026/versus/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Andrey Petrov
+  last_updated_on: 2019-12-18 21:47:13.000000000 Z
